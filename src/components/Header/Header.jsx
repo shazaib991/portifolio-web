@@ -5,18 +5,18 @@ export const Header = () => {
 				SHAZAIB<span className="text-sky-400">.</span>MUNAWAR
 			</a>
 			<div className="flex text-[15px] font-medium tracking-widest text-slate-300 mr-[120px]">
-				<a href="#home" className="hover:text-[#38bdf8] mr-[30px]">
-					HOME
-				</a>
-				<a href="#about" className="hover:text-[#38bdf8] mr-[30px]">
-					ABOUT
-				</a>
-				<a href="#projects" className="hover:text-[#38bdf8] mr-[30px]">
-					WORK
-				</a>
-				<a href="#contact" className="hover:text-[#38bdf8]">
-					CONTACT
-				</a>
+				<button className="hover:text-[#38bdf8] mr-[30px]">
+					<a href="#home">HOME</a>
+				</button>
+				<button className="hover:text-[#38bdf8] mr-[30px]">
+					<a href="#about">ABOUT</a>
+				</button>
+				<button className="hover:text-[#38bdf8] mr-[30px]">
+					<a href="#work">WORK</a>
+				</button>
+				<button className="hover:text-[#38bdf8]">
+					<a href="#contact">CONTACT</a>
+				</button>
 			</div>
 			<button className="md:hidden text-[20px]" id="menuBtn">
 				<i className="fas fa-bars"></i>
