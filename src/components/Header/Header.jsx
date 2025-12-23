@@ -1,10 +1,10 @@
 export const Header = () => {
 	return (
-		<div className="h-[60px] fixed w-full flex justify-between items-center backdrop-blur bg-[rgba(30,41,59,0.7)] font-[Inter]">
+		<div className="h-[60px] fixed w-full border border-[rgba(255,255,255,0.1)] flex justify-between items-center backdrop-blur bg-[rgba(30,41,59,0.7)] font-[Inter]">
 			<a href="#" className="text-[20px] font-bold tracking-tighter text-white ml-[120px]">
 				SHAZAIB<span className="text-sky-400">.</span>MUNAWAR
 			</a>
-			<div className="flex text-[15px] font-medium tracking-widest text-slate-300 mr-[120px]">
+			<div className="flex text-[14px] font-medium tracking-widest text-slate-300 mr-[120px]">
 				<button className="hover:text-[#38bdf8] mr-[30px]">
 					<a href="#home">HOME</a>
 				</button>

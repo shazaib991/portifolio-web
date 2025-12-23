@@ -12,13 +12,17 @@ export const HeroSection = () => {
 				elegant design.
 			</p>
 			<div className="mt-[45px] flex flex-wrap justify-center">
-				<button className="bg-sky-500 hover:bg-sky-600 text-white px-[35px] py-[12px] rounded-full font-semibold transition-all transform hover:-translate-y-1 mr-[20px] cursor-pointer">
-					<a href="#projects">View My Work</a>
-				</button>
-				<a href="#contact">
-					<button className="text-white border border-slate-700 hover:bg-slate-800 px-[35px] py-[12px] rounded-full font-semibold transition-all cursor-pointer">
-						Let's Talk
-					</button>
+				<a
+					href="#projects"
+					className="bg-sky-500 hover:bg-sky-600 text-white px-[35px] py-[12px] rounded-full font-semibold transition-all transform hover:-translate-y-1 mr-[20px] cursor-pointer"
+				>
+					View My Work
+				</a>
+				<a
+					href="#contact"
+					className="text-white border border-slate-700 hover:bg-slate-800 px-[35px] py-[12px] rounded-full font-semibold transition-all cursor-pointer"
+				>
+					Let's Talk
 				</a>
 			</div>
 		</div>
