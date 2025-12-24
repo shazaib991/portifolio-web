@@ -13,6 +13,9 @@ export const Work = () => {
 						<a href="https://ebay-clone-ashy.vercel.app/" target="_blank">
 							View Project &gt;
 						</a>
+						<a href="https://github.com/shazaib991/ebay-clone" target="_blank" className="ml-[5px]">
+							View Source code &gt;
+						</a>
 					</button>
 				</div>
 				<div className="flex flex-col justify-end transition-all h-[200px] w-[350px] border border-[rgba(255,255,255,0.1)] rounded-[15px] bg-[url(./assets/youtube-clone.png)] bg-cover bg-no-repeat group">
@@ -21,6 +24,9 @@ export const Work = () => {
 					<button className="self-start invisible group-hover:visible group-hover:opacity-100 opacity-0 transition-all duration-300 mb-[15px] group-hover:mb-[30px] ml-[15px] text-white font-bold">
 						<a href="https://react-youtube-clone-woad.vercel.app/" target="_blank">
 							View Project &gt;
+						</a>
+						<a href="https://github.com/shazaib991/react-youtube-clone" target="_blank" className="ml-[5px]">
+							View Source code &gt;
 						</a>
 					</button>
 				</div>
