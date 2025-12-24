@@ -28,7 +28,7 @@ export const AboutAndSkills = () => {
 				<div className="mt-[30px]">
 					<div className="flex flex-col">
 						<div className="flex justify-between text-[15px]">
-							<p>Html/Css</p>
+							<p>Html/Css/Tailwindcss</p>
 							<p>95%</p>
 						</div>
 						<div className="w-full h-[8px] bg-[#334155] mt-[7px] rounded-full relative">

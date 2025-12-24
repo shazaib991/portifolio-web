@@ -2,6 +2,7 @@ import "./App.css";
 import {AboutAndSkills} from "./components/AboutAndSkills/AboutAndSkills";
 import {Header} from "./components/Header/Header";
 import {HeroSection} from "./components/HeroSection/HeroSection";
+import {Work} from "./components/Work/Work";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<Header></Header>
 			<HeroSection></HeroSection>
 			<AboutAndSkills></AboutAndSkills>
+			<Work></Work>
 		</>
 	);
 }
