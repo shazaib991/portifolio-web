@@ -2,7 +2,7 @@ export const HeroSection = () => {
 	return (
 		<div id="home" className="min-h-screen w-full flex flex-col items-center pt-[60px] font-[Inter] bg-slate-900">
 			<h2 className="text-sky-400 tracking-widest text-[13px] animate-pulse mt-[60px]">AVAILABLE FOR WORK</h2>
-			<h1 className="w-full sm:w-[60%] text-center text-[70px] font-bold leading-[70px] text-white mt-[20px] max-md:text-[50px]">
+			<h1 className="w-full sm:w-[60%] text-center text-[70px] font-bold leading-[70px] text-white mt-[20px] max-md:text-[40px]">
 				Crafting digital{" "}
 				<span className="bg-gradient-to-r from-[#38bdf8] to-[#818cf8] bg-clip-text text-transparent">experiences</span>{" "}
 				that matter.
