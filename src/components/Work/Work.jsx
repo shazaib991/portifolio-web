@@ -1,11 +1,6 @@
 export const Work = () => {
-	// const handleButtonVisibility = (e) => {
-	// 	e.currentTarget.firstElementChild.nextElementSibling.nextElementSibling.classList.replace("invisible", "visible");
-	// 	e.currentTarget.firstElementChild.nextElementSibling.nextElementSibling.classList.replace("opacity-0", "opacity-100");
-	// };
-
 	return (
-		<div className="flex flex-col items-center min-h-screen bg-slate-900 pt-[60px] font-[Inter]">
+		<div className="flex flex-col items-center min-h-screen bg-slate-900 pt-[60px] font-[Inter]" id="work">
 			<div className="mt-[85px]">
 				<h1 className="text-white text-center text-[38px] font-bold">Selected Projects</h1>
 				<p className="text-slate-400 text-center">A showcase of things I've built with passion.</p>

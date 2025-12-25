@@ -1,6 +1,6 @@
 export const Contact = () => {
 	return (
-		<div className="flex items-center justify-center min-h-screen bg-slate-900 pt-[60px] font-[Inter]">
+		<div className="flex items-center justify-center min-h-screen bg-slate-900 pt-[60px] font-[Inter]" id="contact">
 			<div className="w-[800px] mx-[40px] px-[30px] backdrop-blur bg-[rgba(30,41,59,0.7)] border border-[rgba(255,255,255,0.1)] rounded-[20px] mb-[30px]">
 				<h1 className="text-white font-bold text-[30px] text-center mt-[40px]">Start a conversation</h1>
 				<p className="text-slate-400 text-center">Have a project in mind? Reach out and let's make it happen.</p>

@@ -1,6 +1,6 @@
 export const AboutAndSkills = () => {
 	return (
-		<div className="min-h-screen bg-slate-900 pt-[60px] font-[Inter]">
+		<div className="min-h-screen bg-slate-900 pt-[60px] font-[Inter]" id="about">
 			<div className="flex gap-16 max-md:flex-col justify-center max-w-[83%] mx-auto">
 				<div className="mt-[100px] flex flex-col flex-1 w-[50%] max-md:w-full">
 					<h1 className="text-white font-bold text-[30px]">About Me</h1>
