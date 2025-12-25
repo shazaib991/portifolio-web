@@ -13,7 +13,7 @@ export const HeroSection = () => {
 			</p>
 			<div className="mt-[45px] flex flex-wrap gap-4 justify-center mb-[30px]">
 				<a
-					href="#projects"
+					href="#work"
 					className="bg-sky-500 hover:bg-sky-600 text-white px-[35px] py-[12px] rounded-full font-semibold transition-all transform hover:-translate-y-1 cursor-pointer"
 				>
 					View My Work
