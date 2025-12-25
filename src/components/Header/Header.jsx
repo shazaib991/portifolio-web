@@ -1,4 +1,4 @@
-export const Header = () => {
+export const Header = ({isMenuOpen, setIsMenuOpen}) => {
 	return (
 		<div className="h-[60px] fixed w-full border border-[rgba(255,255,255,0.1)] backdrop-blur bg-[rgba(30,41,59,0.7)] font-[Inter] z-[999]">
 			<div className="h-full flex justify-between items-center max-w-[83%] mx-auto">
@@ -19,7 +19,7 @@ export const Header = () => {
 						<a href="#contact">CONTACT</a>
 					</button>
 				</div>
-				<button className="max-md:block hidden text-[20px] text-white" id="menuBtn">
+				<button className="max-md:block hidden text-[20px] text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="16"
