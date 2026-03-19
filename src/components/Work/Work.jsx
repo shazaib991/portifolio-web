@@ -30,6 +30,42 @@ export const Work = () => {
 						</a>
 					</button>
 				</div>
+				<div className="flex flex-col justify-end transition-all h-[200px] w-[350px] max-md:w-[83%] border border-[rgba(255,255,255,0.1)] rounded-[15px] bg-[url(./assets/dr-ceramic.png)] bg-cover bg-no-repeat group">
+					<h1 className="text-red-500 text-[20px] font-bold ml-[15px]">Dr-ceramic cardetailer website</h1>
+					<p className="text-sky-400 ml-[15px] text-[14px]">Html • Css • Javascript</p>
+					<button className="self-start max-md:visible max-md:opacity-100 invisible group-hover:visible group-hover:opacity-100 opacity-0 transition-all duration-300 mb-[15px] group-hover:mb-[30px] ml-[15px] text-black font-bold">
+						<a href="https://dr-ceramic.vercel.app/" target="_blank">
+							View Project &gt;
+						</a>
+						<a href="https://github.com/shazaib991/dr-ceramic" target="_blank" className="ml-[5px]">
+							View Source code &gt;
+						</a>
+					</button>
+				</div>
+				<div className="flex flex-col justify-end transition-all h-[200px] w-[350px] max-md:w-[83%] border border-[rgba(255,255,255,0.1)] rounded-[15px] bg-[url(./assets/elmo.png)] bg-cover bg-no-repeat group">
+					<h1 className="text-yellow-500 text-[20px] font-bold ml-[15px]">Elmo-detailing website</h1>
+					<p className="text-sky-400 ml-[15px] text-[14px]">Html • Css • Javascript</p>
+					<button className="self-start max-md:visible max-md:opacity-100 invisible group-hover:visible group-hover:opacity-100 opacity-0 transition-all duration-300 mb-[15px] group-hover:mb-[30px] ml-[15px] text-white font-bold">
+						<a href="https://elmo-detailing.vercel.app/" target="_blank">
+							View Project &gt;
+						</a>
+						<a href="https://github.com/shazaib991/elmo-detailing" target="_blank" className="ml-[5px]">
+							View Source code &gt;
+						</a>
+					</button>
+				</div>
+				<div className="flex flex-col justify-end transition-all h-[200px] w-[350px] max-md:w-[83%] border border-[rgba(255,255,255,0.1)] rounded-[15px] bg-[url(./assets/jn.png)] bg-cover bg-no-repeat group">
+					<h1 className="text-black text-[20px] font-bold ml-[15px]">Jn-car-detailer website</h1>
+					<p className="text-sky-400 ml-[15px] text-[14px]">React • Tailwindcss</p>
+					<button className="self-start max-md:visible max-md:opacity-100 invisible group-hover:visible group-hover:opacity-100 opacity-0 transition-all duration-300 mb-[15px] group-hover:mb-[30px] ml-[15px] text-black font-bold">
+						<a href="https://jn-car-detailer.vercel.app/" target="_blank">
+							View Project &gt;
+						</a>
+						<a href="https://github.com/shazaib991/jn-car-detailer" target="_blank" className="ml-[5px]">
+							View Source code &gt;
+						</a>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
