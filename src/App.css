@@ -1,2 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+	--font-display: "Space Grotesk", "Inter", ui-sans-serif, sans-serif;
+	--font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+	html {
+		background: #020617;
+		color-scheme: dark;
+	}
+	/* Native smooth scrolling only when Lenis isn't running (e.g. reduced motion off but JS failed). */
+	@media (prefers-reduced-motion: no-preference) {
+		html:not(.lenis) {
+			scroll-behavior: smooth;
+		}
+	}
+	body {
+		@apply bg-slate-950 font-sans text-slate-200 antialiased;
+		overflow-x: clip;
+	}
+	section[id] {
+		scroll-margin-top: 72px;
+	}
+	::selection {
+		@apply bg-sky-400/30 text-white;
+	}
+	:focus-visible {
+		@apply outline-2 outline-offset-2 outline-sky-400;
+	}
+}
+
+/* Lenis recommended styles */
+html.lenis,
+html.lenis body {
+	height: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+	overflow: clip;
+}
+
+@utility text-gradient {
+	background-image: linear-gradient(90deg, #38bdf8, #818cf8);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+@utility text-outline {
+	color: transparent;
+	-webkit-text-stroke: 1.5px rgb(148 163 184 / 0.35);
+}
+
+@utility grid-bg {
+	background-image:
+		linear-gradient(rgb(148 163 184 / 0.07) 1px, transparent 1px),
+		linear-gradient(90deg, rgb(148 163 184 / 0.07) 1px, transparent 1px);
+	background-size: 64px 64px;
+	mask-image: radial-gradient(ellipse at center, black 25%, transparent 75%);
+}
